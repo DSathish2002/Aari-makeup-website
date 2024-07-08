@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height: 60px;
+    width: 97%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.hascon{
+    height: 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.logo{
+    height: auto;
+    width: 60%;
+}
+
+.background{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('loveu.jpg');
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.quotes{
+    height: 150px;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    color: rgb(126, 13, 69);
+    padding-right: 10px;
+    
+
+}
+.welcome{
+    height: 300px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:end;
+    color: white;
+    font-size: 35px;
+
+}
+
+ .quotes h2{
+    font-family: Pacifico;
+    font-size: 35px;
+}
+.aariback{
+    height: 100px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.aari2{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    border: 1px black;
+}
+
+.aari1{
+    padding: 10px;
+}
+
+.aari1 p{
+    font-size: 20px;
+    text-align: justify;
+    
+}

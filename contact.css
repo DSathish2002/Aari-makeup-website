@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height: 60px;
+    width: 97%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.hascon{
+    height: 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.logo{
+    height: auto;
+    width: 60%;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.contactback{
+    height:300px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('contact_bg.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+.contact{
+    padding-left: 150px;
+}
+.address{
+    height: auto;
+    width: auto;
+    line-height: 30px;
+}
+.foot{
+    height: 100px;
+    width:100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
